@@ -1,0 +1,14 @@
+#540F0F #7F1717 monochromatic
+#565554 #530808 #7C3055 triadiac
+#257438 #742561 complementary
+#BCE31C #1CBCE3 #E31CBC triadic
+465C56 #D52A4A complemetary
+#609F91 #9F606E complementary
+
+#88732D
+FCF7BB
+typography
+fonts
+size
+
+BCD631 C54498 1DBCE3

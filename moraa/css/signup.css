@@ -1,0 +1,166 @@
+
+/* 
+    Created on : 29.03.2018, 23:48:59
+    Author     : william
+    set the layout of the sign up and login Screen
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/montain.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    background: rgba(72,79,86,0.6);
+    border-bottom: 2px solid pink;
+}
+
+.logo img{
+    margin-top: 5px;
+    position: fixed;
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.menu{
+    float: right;
+}
+
+nav lu{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;        
+}
+
+nav ul li{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #ff8c00;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.login-page{
+    width: 380px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+   position: relative;
+   background: rgba(72,79,86,0.6);
+   margin: 0 auto 100px;
+   padding: 45px;
+   text-align: center;
+}
+
+.form input{
+    outline: darkgray;
+    background: #e0e0e0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: #ff8c00;
+    width: 100%;
+    border: 0;
+    padding:  12px;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    background: #68767f;
+}
+
+.form .indication{
+    margin: 15px 0 0;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.from .indication a{
+    text-decoration: none;
+    margin: 15px 0 0;
+    color:pink;
+    font-size: 18px;
+}
+
+.form .register-form img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.form .login-form img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.form .register-form{
+    display: none;
+}
+
+.social-net{
+    text-align: center;
+}
+
+.link{
+    list-style: none;
+}
+
+.link li{
+    display: inline-block;
+}
+
+.link li a img{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+
+link li a img:hover{
+    background: #999;
+    transition: all 0.3s ease-in;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    padding: 10px 20px 0px 20px;
+    background: pink;
+}
+

@@ -1,0 +1,234 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/montain.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    background: rgba(72,79,86,0.6);
+    border-bottom: 2px solid pink;
+}
+
+.logo img{
+    margin-top: 5px;
+    position: fixed;
+    float: left;
+    width: 40px;
+    height: auto;
+}
+
+.menu{
+    float: right;
+}
+
+nav lu{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;        
+}
+
+nav ul li{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #ff8c00;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.brand{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.brand h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.brand a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    background: pink;
+}
+
+.brand a:hover{
+    text-decoration: none;
+    background: white;
+    transition: all 0.2s ease-in;
+}
+
+.scroll{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75vh;
+    position: absolute;
+}
+
+.scroll img{
+    margin-top: 100px;
+    width: 50px;
+    height: auto;
+}
+
+.scroll img:hover{
+    width: 80px;
+    cursor: pointer;
+}
+
+.subscribe{
+    width: 100%;
+    height: 60px;
+    background: #999;
+    padding-left: 6em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: pink;
+}
+
+.subscribe h4{
+    float: left;
+    color: white;
+}
+
+.subscribe form{
+    float: right;
+    color: white;
+    margin-right: 6em;
+}
+
+.subscribe form input[type="email"]{
+    margin-right: -4px;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #333;
+}
+
+.subscribe button{
+    height: 40px;
+    background:#999;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #333;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.subscribe form button:hover{
+    background: #333;
+    color: white;
+}
+
+.content{
+    width: 90%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.social-net{
+    text-align: center;
+}
+
+.link{
+    list-style: none;
+}
+
+.link li{
+    display: inline-block;
+}
+
+.link li a img{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+
+link li a img:hover{
+    background: #999;
+    transition: all 0.3s ease-in;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    padding: 10px 20px 0px 20px;
+    background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
